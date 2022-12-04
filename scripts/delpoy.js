@@ -9,26 +9,26 @@ await provider.send("eth_requestAccounts", []);
 // send ether and pay to change state within the blockchain.
 // For this, you need the account signer...
 const signer = provider.getSigner();
-import React from "react";
-import Ether from "ether.js";
+// import React from "react";
+// import Ether from "ether.js";
 
-class MyApp extends React.Component {
-  // Initialize the Ether.js library and connect to the blockchain
-  async componentDidMount() {
-    this.web3 = new Ether.Web3(
-      new Ether.providers.Web3Provider(web3.currentProvider)
-    );
-    this.contract = new this.web3.eth.Contract(ABI, contractAddress);
-  }
+// class MyApp extends React.Component {
+//   // Initialize the Ether.js library and connect to the blockchain
+//   async componentDidMount() {
+//     this.web3 = new Ether.Web3(
+//       new Ether.providers.Web3Provider(web3.currentProvider)
+//     );
+//     this.contract = new this.web3.eth.Contract(ABI, contractAddress);
+//   }
 
-  // Handle the button click event and call the mintNft function
-  async handleClick() {
-    await this.contract.methods
-      .mintNft(tokenId, tokenMetadata)
-      .send({ from: account });
-  }
+//   // Handle the button click event and call the mintNft function
+//   async handleClick() {
+//     await this.contract.methods
+//       .mintNft(tokenId, tokenMetadata)
+//       .send({ from: account });
+//   }
 
-  render() {
-    return <button onClick={this.handleClick}>mintNFTicket</button>;
-  }
-}
+//   render() {
+//     return <button onClick={this.handleClick}>mintNFTicket</button>;
+//   }
+// }

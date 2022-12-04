@@ -6,7 +6,7 @@ const Events = ({ Name, Venue, Description }) => {
   const [showModal, setShowModal] = useState(false)
 
   return (
-    <div>
+    <div className='text-[20px]'>
       <h1 className='font-bold m-8 text-center text-[30px]'>
         Explore all the Events!
       </h1>

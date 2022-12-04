@@ -14,9 +14,6 @@ const Navbar = () => {
         <Link href='../components/Events' className=''>
           Events
         </Link>
-        <Link href='../components/Dashboard' className=' '>
-          Dashboard
-        </Link>
       </div>
     </div>
   )
