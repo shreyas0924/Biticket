@@ -32,3 +32,7 @@ accessible solution for event organizers and fans alike. By
 eliminating the black market and protecting the rights of all parties
 involved, we are able to provide a better, more trustworthy ticketing
 experience for everyone.
+
+These nft tickets are deployed on polygon testnet mumbai.
+Polygon Tickets:0xbe188D6641E8b680743A4815dFA0f6208038960F
+Polygon NFTicketing: 0xb6A9A657909c273A7C118ef65420e5226Ee096ac
