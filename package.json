@@ -24,7 +24,12 @@
     "react-dom": "18.2.0",
     "tailwindcss": "^3.2.4",
     "typescript": "4.9.3",
+<<<<<<< HEAD
     "web3": "^1.8.1"
+=======
+    "web3": "^1.8.1",
+    "whatwg-fetch": "^3.6.2"
+>>>>>>> 8c3cdb4c1c3a1670bd746d3eefb93382a3182189
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
